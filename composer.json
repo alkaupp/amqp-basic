@@ -1,0 +1,22 @@
+{
+    "name": "alkaupp/amqp-basic",
+    "description": "Consume and publish RabbitMq queues",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aleksi Kauppila",
+            "email": "aleksi.kauppila@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "AmqpBasic\\": "src/",
+            "Tests\\": "tests/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^9.1"
+    }
+}
